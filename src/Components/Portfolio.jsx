@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portify.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "artistic pic";
 
 /**
  * Project list
@@ -31,28 +31,20 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Trekking Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "a social media platform designed for trekking enthusiast where user can share their travel experience",
+    url: "https://github.com/Shashanka10/Trek-Diaries",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Web Development for Beginners using Visual Studio Code",
+    description: "modules to teach begineers, concept of web development using HTML, CSS and JS",
+    url: "https://learn.microsoft.com/en-us/training/modules/get-started-with-web-development/",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "My Personal Website",
+    description: "a personal portfolio website created with the help of NextJS",
+    url: "https://www.luitelshashanka.com.np/",
   },
 ];
 
