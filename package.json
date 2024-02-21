@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://Shashanka10.github.io/mlsa_onboarding_portfolio",
+  "homepage": "https://Shashanka10.github.io/mlsa_onboarding_portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'http://Shashanka10.github.io/mlsa_onboarding_portfolio'",
+    "build-gh": "parcel build --public-url 'https://Shashanka10.github.io/mlsa_onboarding_portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
