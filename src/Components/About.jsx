@@ -61,8 +61,10 @@ const About = () => {
           borderRadius: "2rem",
         }}
       >
-        <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <h2 style={{ fontWeight: "bold", fontSize: "3rem" }}>About Myself</h2>
+        <p className="large" style={{ fontWeight: "normal", color: "GrayText" }}>
+          {description}
+        </p>
         <hr />
         <ul
           style={{
@@ -78,7 +80,9 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0", fontWeight: "normal", fontSize: "1rem" }}>
+          {detailOrQuote}
+        </p>
       </div>
     </section>
   );

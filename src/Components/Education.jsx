@@ -7,7 +7,7 @@ const imageAltText = "kathmandu univeristy";
 const Education = () => {
   return (
     <section className="padding" id="education" style={{ background: "skyblue" }}>
-      <h2 style={{ textAlign: "center" }}>Education</h2>
+      <h2 style={{ textAlign: "center", fontWeight: "bold", fontSize: "3rem" }}>Education</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
@@ -17,15 +17,20 @@ const Education = () => {
               width: "100%",
               objectFit: "cover",
               boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.1)",
-              borderRadius: "10px",
             }}
             alt={imageAltText}
           />
         </div>
-        <div style={{ maxWidth: "60%", paddingLeft: "3rem" }}>
-          <h3>Kathmandu University, Dhulikhel</h3>
-          <p>Bachelor of Computer Engineering</p>
-          <p>2020 - 2025</p>
+        <div style={{ maxWidth: "60%", paddingLeft: "18rem" }}>
+          <h3 style={{ fontWeight: "normal", fontSize: "2rem", fontFamily: "sans-serif" }}>
+            Kathmandu University, Dhulikhel
+          </h3>
+          <p style={{ fontWeight: "normal", fontSize: "1rem", fontFamily: "sans-serif" }}>
+            Bachelor of Computer Engineering
+          </p>
+          <p style={{ fontWeight: "normal", fontSize: "1rem", fontFamily: "sans-serif" }}>
+            2020 - 2025
+          </p>
         </div>
       </div>
     </section>

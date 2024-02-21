@@ -51,7 +51,7 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ fontWeight: "bold", fontSize: "3rem", textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
@@ -67,11 +67,15 @@ const Portfolio = () => {
         </div>
         <div className="container">
           {projectList.map((project) => (
-            <div className="box" key={project.title}>
+            <div className="box" key={project.title} style={{ borderRadius: "1rem" }}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <h3 style={{ flexBasis: "50px", fontWeight: "bold", fontFamily: "sans-serif" }}>
+                  {project.title}
+                </h3>
               </a>
-              <p className="small">{project.description}</p>
+              <p className="small" style={{ fontWeight: "normal", color: "grey" }}>
+                {project.description}
+              </p>
             </div>
           ))}
         </div>
