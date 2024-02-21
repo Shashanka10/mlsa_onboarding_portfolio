@@ -27231,6 +27231,10 @@ const About = ()=>{
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        style: {
+                            fontWeight: "bold",
+                            fontSize: "3rem"
+                        },
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
@@ -27239,6 +27243,10 @@ const About = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "large",
+                        style: {
+                            fontWeight: "normal",
+                            color: "GrayText"
+                        },
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
@@ -27247,7 +27255,7 @@ const About = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27262,27 +27270,29 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 77,
+                                lineNumber: 79,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 67,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         style: {
-                            padding: "1rem 3rem 0"
+                            padding: "1rem 3rem 0",
+                            fontWeight: "normal",
+                            fontSize: "1rem"
                         },
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 81,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -28542,10 +28552,10 @@ const Header = ()=>{
             position: "fixed",
             display: "flex",
             justifyContent: "center",
-            gap: "2rem",
+            gap: "3rem",
             background: "grey",
             opacity: "90%",
-            padding: "1rem",
+            padding: "1.5rem",
             top: 0,
             width: "100%",
             zIndex: 10
@@ -28553,6 +28563,11 @@ const Header = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#home",
+                style: {
+                    fontWeight: "normal",
+                    fontFamily: "sans-serif",
+                    fontSize: "1.1rem"
+                },
                 children: "Home"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
@@ -28561,34 +28576,54 @@ const Header = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#about",
+                style: {
+                    fontWeight: "normal",
+                    fontFamily: "sans-serif",
+                    fontSize: "1.1rem"
+                },
                 children: "About"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 26,
+                lineNumber: 31,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#portfolio",
+                style: {
+                    fontWeight: "normal",
+                    fontFamily: "sans-serif",
+                    fontSize: "1.1rem"
+                },
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 27,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#footer",
+                style: {
+                    fontWeight: "normal",
+                    fontFamily: "sans-serif",
+                    fontSize: "1.1rem"
+                },
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 28,
+                lineNumber: 43,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#education",
+                style: {
+                    fontWeight: "normal",
+                    fontFamily: "sans-serif",
+                    fontSize: "1.1rem"
+                },
                 children: "Education"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 29,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28659,23 +28694,33 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     position: "absolute",
-                    top: "5rem",
-                    left: "2rem",
-                    width: "17rem"
+                    top: "20rem",
+                    left: "8rem",
+                    width: "50rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        style: {
+                            fontWeight: "bold",
+                            fontFamily: "cursive"
+                        },
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 32,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        style: {
+                            fontWeight: "bold",
+                            fontFamily: "cursive",
+                            marginTop: "4rem",
+                            color: "GrayText"
+                        },
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 33,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -28700,12 +28745,12 @@ const Home = ({ name , title  })=>{
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 36,
+                    lineNumber: 52,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 35,
+                lineNumber: 51,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28799,6 +28844,8 @@ const Portfolio = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 style: {
+                    fontWeight: "bold",
+                    fontSize: "3rem",
                     textAlign: "center"
                 },
                 children: "Portfolio"
@@ -28842,6 +28889,9 @@ const Portfolio = ()=>{
                         className: "container",
                         children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "box",
+                                style: {
+                                    borderRadius: "1rem"
+                                },
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                         href: project.url,
@@ -28849,7 +28899,9 @@ const Portfolio = ()=>{
                                         rel: "noopener noreferrer",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                             style: {
-                                                flexBasis: "40px"
+                                                flexBasis: "50px",
+                                                fontWeight: "bold",
+                                                fontFamily: "sans-serif"
                                             },
                                             children: project.title
                                         }, void 0, false, {
@@ -28864,10 +28916,14 @@ const Portfolio = ()=>{
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         className: "small",
+                                        style: {
+                                            fontWeight: "normal",
+                                            color: "grey"
+                                        },
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 74,
+                                        lineNumber: 76,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
@@ -28932,7 +28988,9 @@ const imageAltText = "kathmandu univeristy";
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 style: {
-                    textAlign: "center"
+                    textAlign: "center",
+                    fontWeight: "bold",
+                    fontSize: "3rem"
                 },
                 children: "Education"
             }, void 0, false, {
@@ -28958,8 +29016,7 @@ const imageAltText = "kathmandu univeristy";
                                 height: "90%",
                                 width: "100%",
                                 objectFit: "cover",
-                                boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.1)",
-                                borderRadius: "10px"
+                                boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.1)"
                             },
                             alt: imageAltText
                         }, void 0, false, {
@@ -28975,34 +29032,49 @@ const imageAltText = "kathmandu univeristy";
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
                             maxWidth: "60%",
-                            paddingLeft: "3rem"
+                            paddingLeft: "18rem"
                         },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                style: {
+                                    fontWeight: "normal",
+                                    fontSize: "2rem",
+                                    fontFamily: "sans-serif"
+                                },
                                 children: "Kathmandu University, Dhulikhel"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 26,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                style: {
+                                    fontWeight: "normal",
+                                    fontSize: "1rem",
+                                    fontFamily: "sans-serif"
+                                },
                                 children: "Bachelor of Computer Engineering"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 27,
+                                lineNumber: 28,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                style: {
+                                    fontWeight: "normal",
+                                    fontSize: "1rem",
+                                    fontFamily: "sans-serif"
+                                },
                                 children: "2020 - 2025"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 28,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 25,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, undefined)
                 ]
